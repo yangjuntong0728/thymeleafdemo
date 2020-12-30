@@ -1,0 +1,18 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1 th:text="${message}"></h1>
+
+<img th:src="${src.src1}"/>
+<img th:src="${src.src2}">
+
+<span th:text="${user.getId()}"></span>
+<span th:text="${user.getName()}"></span>
+<span th:text="${user.getAge()}"></span>
+</body>
+</html>
