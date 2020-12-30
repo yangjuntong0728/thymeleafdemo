@@ -90,4 +90,8 @@ public class FirstThymeleafController {
         model.addAttribute("href", "http://www.ujiuye.com");
         return "index4";
     }
+
+    public void hello(){
+        System.out.println("你好分支");
+    }
 }
